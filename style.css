@@ -1,0 +1,108 @@
+/* #1f1e27--navbar */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fira+Code:wght@300&family=Pixelify+Sans:wght@500&family=Sixtyfour&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fira+Code:wght@300&family=Pixelify+Sans:wght@500&family=Roboto:wght@100;400&family=Sixtyfour&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root
+{
+    --navcolor: #1f1e27;
+    --iconcolor:#616067;
+    --textcolor: #34333b
+    
+}
+
+
+.logo_font{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    
+}
+#navbarNav{
+ font-family: 'Roboto', sans-serif;
+}
+
+#navbar_cust{
+    background-color:var(--navcolor) !important;
+}
+
+.resume_btn{
+    background-color: #34333b !important;
+}
+.btn_bg{
+    background-color:var(--navcolor) ;
+}
+
+.icon_size{
+    height: 300px;
+}
+.font_family{
+    font-family: 'Roboto', sans-serif;
+    color: var(--textcolor);
+}
+.aboutme{
+    color: var(--textcolor);
+}
+
+
+
+.small_icons{
+    height: 60px;
+    width: 60px;
+}
+.date_color{
+    color: #747264;
+}
+
+.small_font{
+    font-size: 11px;
+}
+.skill-icon-row{
+    background-color:   #F5F5F5;
+    /* border: 1px solid black; */
+}
+.skill-icon{
+    height: 5opx;
+    width: 50px;
+
+}
+.skillsectionBody{
+    background-color: #F5F5F5;
+}
+.contactUs_text{
+    margin-top: 90px;
+}
+.resume_btn{
+    color: white !important;
+    text-decoration: none;
+}
+
+/* custom button */
+.cust_BTN {
+    font-size: 18px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    will-change: box-shadow,transform;
+    background: radial-gradient( 100% 100% at 100% 0%, #89E5FF 0%, #5468FF 100% );
+    box-shadow: 0px 0.01em 0.01em rgb(45 35 66 / 40%), 0px 0.3em 0.7em -0.01em rgb(45 35 66 / 30%), inset 0px -0.01em 0px rgb(58 65 111 / 50%);
+    padding: 0 1em;
+    border-radius: 0.3em;
+    color: #fff;
+    height: 35px;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+  }
+  
+  .cust_BTN:hover {
+    box-shadow: 0px 0.1em 0.2em rgb(45 35 66 / 40%), 0px 0.4em 0.7em -0.1em rgb(45 35 66 / 30%), inset 0px -0.1em 0px #3c4fe0;
+    transform: translateY(-0.1em);
+  }
+  
+  button:active {
+    box-shadow: inset 0px 0.1em 0.6em #3c4fe0;
+    transform: translateY(0em);
+  }
