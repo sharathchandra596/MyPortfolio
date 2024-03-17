@@ -31,9 +31,7 @@
 .resume_btn{
     background-color: #34333b !important;
 }
-.btn_bg{
-    background-color:var(--navcolor) ;
-}
+
 
 .icon_size{
     height: 300px;
@@ -109,4 +107,10 @@
 
   .card_btn{
     background-color: #34333b !important;
+  }
+  .card{
+    max-height: 700px;
+  }
+  .custom-card-img{
+    height: 120px;
   }
